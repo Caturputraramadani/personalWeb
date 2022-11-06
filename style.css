@@ -205,7 +205,7 @@ animation: crow 0.58 linear Os infinite;
 /* Page Destination */
 
 .destination{
-    height: 700px;
+    height: 800px;
     /* margin-top: 100px; */
 }
 
@@ -281,65 +281,70 @@ footer, img{
     
 }
 @media (max-width: 600px){
-    body {
-    
+    body{
         font-family: 'Poppins', sans-serif;
         background-color: #181818;
         background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("city\(personal\ work\)\,\ XuTeng\ Pan.png");
         background-size: cover;
         background-repeat: no-repeat;
         height: 100px;
-        position: relative;
     }
-    nav{
-        /* background-color: #AEBDCA; */
+}
+
+@media (max-width: 600px){
+    nav {
         width: 225%;
         height: 15px;
     }
-    
+}
+@media (max-width: 600px){
     nav .nav-logo{
         line-height: 60px;
-        margin-left: 190px;
-        
+        margin-left: 90px;
     }
-    
+       
+}
+@media (max-width: 600px){
     nav .nav-logo a{
         font-size: 20px;
         text-decoration: none;
         color: #fff;
         text-shadow: 3px 2px 1px #515353;
         float: left;
-
-        
-       
     }
-    
+}
+@media (max-width: 600px){
     nav ul{
         float: right;
-        margin-right: 250px;
+        margin-right: 100px;
     }
-    
+}
+@media (max-width: 600px){
     nav ul li{
         display: inline-block;
         margin: 0 20px;
         line-height: 60px;
     }
-    
+}
+@media (max-width: 600px){
     nav ul li a{
         color: #fff;
         text-shadow: 3px 2px 1px #515353;
         text-decoration: none;
     }
-    
+}
+@media (max-width: 600px){
     .container{
         margin: 0 170px;
         position: relative;
     }
-    
+} 
+@media (max-width: 600px){
     .landing-page{
         height: 650px;
     }
-    
+}
+@media (max-width: 600px){
     #typing{
         width: auto;
         color: #fff;
@@ -350,21 +355,15 @@ footer, img{
         font-size: 42px; overflow: hidden; 
         white-space: nowrap; 
         animation: typing 3s steps(24) 2s infinite;
-    
     }
+}
+@media (max-width: 600px){
     #typing span{
         color:#fff;
         text-shadow: 3px 2px 1px #515353;
     }
-       
-        
-    #crow {
-    float: left;
-    margin-top: 25px;
-    color: #000000;
-    font-size: 25px;
-    animation: crow 0.58 linear Os infinite;
-    }
+}
+@media (max-width: 600px){
     @keyframes typing{
         from{
             width:0;
@@ -373,48 +372,8 @@ footer, img{
             width: 900px;
         }
     }
-    @keyframes crow{
-        from{
-            opacity: 0;
-        }
-        to{
-             opacity: 1;
-        }
-     }
-    
-    .landing-page .content-landing{ 
-        position: relative;
-        top: 25%;
-    }
-    
-    .landing-page .content-landing h1{
-        font-size: 80px;
-        color: #fff;
-        font-family: 'Caveat', sans-serif;
-    }
-    
-    .landing-page .content-landing span{
-        color: #06283D;
-    }
-    
-    .landing-page .content-landing p{
-        width: 30rem;
-    }
-    
-    .button{
-        margin-top: 25px;
-    }
-    
-    .button .btn{
-        background-color: #06283D;
-        padding: 13px 25px;
-        text-decoration: none;
-        color: #ffff;
-        border-radius: 5px;
-    }
-    
-    /* Page About */
-    
+}
+@media (max-width: 600px){
     .about{
         background-color: #181818;
         height: 1000px;
@@ -425,7 +384,8 @@ footer, img{
         margin: 0px;
         
     }
-    
+}
+@media (max-width: 600px){
     .about .container-about{
         margin: 10px;
         padding: 30px;
@@ -441,8 +401,8 @@ footer, img{
         text-align: center;
         display:block;
     }
-    }
-    
+}
+@media (max-width: 600px){
     .about .container-about .text-about{
         margin: auto;
         width: 23rem;
@@ -450,81 +410,67 @@ footer, img{
         text-shadow: 3px 2px 1px rgb(0, 0, 0);
         position: center;
     }
-    
-    
+}
+@media (max-width: 600px){
     .about .container-about .text-about h1{
         font-size: 50px;
     }
-    
+}
+@media (max-width: 600px){
     .about .container-about .text-about p{
         font-size: 30px;
     }
+}
+@media (max-width: 600px){
     .about .container-about .image-about{
         position: center;
         width: 23rem;
         float: center;
-     
     }
-    
+}
+@media (max-width: 600px){
     .about .container-about .image-about img{
         width: 100%;
         display: center;
         justify-content: flex-end;
         border-radius: 10px;
         padding: 5px;
-        
-        
-       
-    
     }
-    
-   
-    
-    .cf:before,
-    .cf:after {
-        content: " "; /* 1 */
-        display: table; /* 2 */
-    }
-    
-    .cf:after {
-        clear: both;
-    }
-    
-    .cf {
-        *zoom: 1;
-    }
-    
-    /* Page Destination */
-    
+}
+@media (max-width: 600px){
     .destination{
         height: 1400px;
         /* margin-top: 100px; */
     }
-    
+}
+@media (max-width: 600px){
     .destination .content-destination{
         margin-top: 100px;
     }
-    
+}
+@media (max-width: 600px){
     .destination .content-destination h1{
         text-align: right;
         font-size: 50px;
         color: #343434;
-      
-    }
-    
+    }  
+}
+@media (max-width: 600px){
     .destination .content-destination p{
         text-align: center;
         color: #343434;
         font-size: 35px;
     }
-    
+}
+@media (max-width: 600px){
     .destination .card{
         position:center;
         justify-content: center;
         text-align: center;
         display:block;
-    }
-    
+    } 
+}
+@media (max-width: 600px){
     .destination .card .card-body{
         background-color: rgb(255, 255, 255);
         width: 550px;
@@ -533,18 +479,19 @@ footer, img{
         border-radius: 5px; 
         padding: 25px 25px; 
     }
-    
+}
+@media (max-width: 600px){
     .card-body img{
         width: 100%;
-        /* border-radius: 5px 5px 0 0; */
     }
-    
+}
+@media (max-width: 600px){
     .card-body .content-card{
         padding: 15px 10px;
-        
         text-align: center;
     }
-    
+}
+@media (max-width: 600px){
     .card-body .content-card h1{
         color: #343434;
         font-size: 20px;
@@ -552,12 +499,14 @@ footer, img{
         position:center;
 
     }
-    
+}
+@media (max-width: 600px){
     .card-body .content-card p{
         color: #606470;
         width: 100%;   
     }
-    
+}
+@media (max-width: 600px){
     footer{
         width: 225%;
         height: 50px;
@@ -567,14 +516,11 @@ footer, img{
         display: right;
         color: #fff;
     }
-    
+}
+@media (max-width: 600px){
     footer p{
         color: #fff;
         font-size: 30px;
         font-display: right;
-    }
-    footer, img{
-    
-      
     }
 }
