@@ -139,7 +139,7 @@ animation: crow 0.58 linear Os infinite;
 
 .about{
     background-color: #181818;
-    height: 700px;
+    height: 800px;
     width: 100%;
     display: inline-flex;
     position: relative;
@@ -279,4 +279,7 @@ footer, img{
     margin: 10px 10px ;
     
     
+}
+@media (max-width: 600px){
+   
 }
