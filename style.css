@@ -342,18 +342,18 @@ footer, img{
     
     #typing{
         width: auto;
-        color: #c2c2c5;
+        color: #fff;
         text-shadow: 3px 2px 1px #515353;
         float: left;
         margin: 0 auto;
         padding: 10px;
-        font-size: 40px; overflow: hidden; 
+        font-size: 42px; overflow: hidden; 
         white-space: nowrap; 
         animation: typing 3s steps(24) 2s infinite;
     
     }
     #typing span{
-        color:#c2c2c5;
+        color:#fff;
         text-shadow: 3px 2px 1px #515353;
     }
        
@@ -417,11 +417,12 @@ footer, img{
     
     .about{
         background-color: #181818;
-        height: 700px;
+        height: 1000px;
         width:auto;
         display: inline-flex;
-        position: left;
+        position: center;
         padding: 50px;
+        margin: 0px;
         
     }
     
@@ -429,7 +430,7 @@ footer, img{
         margin: 10px;
         padding: 30px;
         border: 1px solid #eaeaea;
-        border-radius: 5px;
+        border-radius: 10px;
         position:relative;
         display: flex;
         justify-content: space-between;
@@ -444,9 +445,10 @@ footer, img{
     
     .about .container-about .text-about{
         margin: auto;
-        width: 35rem;
+        width: 23rem;
         color: #808181;
         text-shadow: 3px 2px 1px rgb(0, 0, 0);
+        position: center;
     }
     
     
@@ -458,8 +460,8 @@ footer, img{
         font-size: 30px;
     }
     .about .container-about .image-about{
-        position: relative;
-        width: 20rem;
+        position: center;
+        width: 23rem;
         float: center;
      
     }
@@ -470,6 +472,7 @@ footer, img{
         justify-content: flex-end;
         border-radius: 10px;
         padding: 5px;
+        
         
        
     
@@ -524,7 +527,7 @@ footer, img{
     
     .destination .card .card-body{
         background-color: rgb(255, 255, 255);
-        width: 700px;
+        width: 550px;
         box-shadow: 0 0 10px #cecece;
         margin: 25px 25px 0 10px;
         border-radius: 5px; 
@@ -538,6 +541,7 @@ footer, img{
     
     .card-body .content-card{
         padding: 15px 10px;
+        
         text-align: center;
     }
     
@@ -555,20 +559,22 @@ footer, img{
     }
     
     footer{
-        width: 100%;
+        width: 225%;
         height: 50px;
         background-color: #181818 ;
         justify-content: center;
         align-items: center;
-        display: flex;
+        display: right;
         color: #fff;
     }
     
     footer p{
         color: #fff;
+        font-size: 30px;
+        font-display: right;
     }
     footer, img{
-        padding: right;
-        margin: 10px 10px ;
+    
+      
     }
 }
