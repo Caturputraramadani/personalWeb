@@ -281,5 +281,294 @@ footer, img{
     
 }
 @media (max-width: 600px){
+    body {
+    
+        font-family: 'Poppins', sans-serif;
+        background-color: #181818;
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("city\(personal\ work\)\,\ XuTeng\ Pan.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100px;
+        position: relative;
+    }
+    nav{
+        /* background-color: #AEBDCA; */
+        width: 225%;
+        height: 15px;
+    }
+    
+    nav .nav-logo{
+        line-height: 60px;
+        margin-left: 190px;
+        
+    }
+    
+    nav .nav-logo a{
+        font-size: 20px;
+        text-decoration: none;
+        color: #fff;
+        text-shadow: 3px 2px 1px #515353;
+        float: left;
+
+        
+       
+    }
+    
+    nav ul{
+        float: right;
+        margin-right: 250px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        margin: 0 20px;
+        line-height: 60px;
+    }
+    
+    nav ul li a{
+        color: #fff;
+        text-shadow: 3px 2px 1px #515353;
+        text-decoration: none;
+    }
+    
+    .container{
+        margin: 0 170px;
+        position: relative;
+    }
+    
+    .landing-page{
+        height: 650px;
+    }
+    
+    #typing{
+        width: auto;
+        color: #c2c2c5;
+        text-shadow: 3px 2px 1px #515353;
+        float: left;
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 40px; overflow: hidden; 
+        white-space: nowrap; 
+        animation: typing 3s steps(24) 2s infinite;
+    
+    }
+    #typing span{
+        color:#c2c2c5;
+        text-shadow: 3px 2px 1px #515353;
+    }
+       
+        
+    #crow {
+    float: left;
+    margin-top: 25px;
+    color: #000000;
+    font-size: 25px;
+    animation: crow 0.58 linear Os infinite;
+    }
+    @keyframes typing{
+        from{
+            width:0;
+        }
+        to{
+            width: 900px;
+        }
+    }
+    @keyframes crow{
+        from{
+            opacity: 0;
+        }
+        to{
+             opacity: 1;
+        }
+     }
+    
+    .landing-page .content-landing{ 
+        position: relative;
+        top: 25%;
+    }
+    
+    .landing-page .content-landing h1{
+        font-size: 80px;
+        color: #fff;
+        font-family: 'Caveat', sans-serif;
+    }
+    
+    .landing-page .content-landing span{
+        color: #06283D;
+    }
+    
+    .landing-page .content-landing p{
+        width: 30rem;
+    }
+    
+    .button{
+        margin-top: 25px;
+    }
+    
+    .button .btn{
+        background-color: #06283D;
+        padding: 13px 25px;
+        text-decoration: none;
+        color: #ffff;
+        border-radius: 5px;
+    }
+    
+    /* Page About */
+    
+    .about{
+        background-color: #181818;
+        height: 700px;
+        width:auto;
+        display: inline-flex;
+        position: left;
+        padding: 50px;
+        
+    }
+    
+    .about .container-about{
+        margin: 10px;
+        padding: 30px;
+        border: 1px solid #eaeaea;
+        border-radius: 5px;
+        position:relative;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0 0 10px #cecece;
+        background-color: #181818;
+        position:center;
+        justify-content: center;
+        text-align: center;
+        display:block;
+    }
+    }
+    
+    .about .container-about .text-about{
+        margin: auto;
+        width: 35rem;
+        color: #808181;
+        text-shadow: 3px 2px 1px rgb(0, 0, 0);
+    }
+    
+    
+    .about .container-about .text-about h1{
+        font-size: 50px;
+    }
+    
+    .about .container-about .text-about p{
+        font-size: 30px;
+    }
+    .about .container-about .image-about{
+        position: relative;
+        width: 20rem;
+        float: center;
+     
+    }
+    
+    .about .container-about .image-about img{
+        width: 100%;
+        display: center;
+        justify-content: flex-end;
+        border-radius: 10px;
+        padding: 5px;
+        
+       
+    
+    }
+    
    
+    
+    .cf:before,
+    .cf:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+    
+    .cf:after {
+        clear: both;
+    }
+    
+    .cf {
+        *zoom: 1;
+    }
+    
+    /* Page Destination */
+    
+    .destination{
+        height: 1400px;
+        /* margin-top: 100px; */
+    }
+    
+    .destination .content-destination{
+        margin-top: 100px;
+    }
+    
+    .destination .content-destination h1{
+        text-align: right;
+        font-size: 50px;
+        color: #343434;
+      
+    }
+    
+    .destination .content-destination p{
+        text-align: center;
+        color: #343434;
+        font-size: 35px;
+    }
+    
+    .destination .card{
+        position:center;
+        justify-content: center;
+        text-align: center;
+        display:block;
+    }
+    
+    .destination .card .card-body{
+        background-color: rgb(255, 255, 255);
+        width: 700px;
+        box-shadow: 0 0 10px #cecece;
+        margin: 25px 25px 0 10px;
+        border-radius: 5px; 
+        padding: 25px 25px; 
+    }
+    
+    .card-body img{
+        width: 100%;
+        /* border-radius: 5px 5px 0 0; */
+    }
+    
+    .card-body .content-card{
+        padding: 15px 10px;
+        text-align: center;
+    }
+    
+    .card-body .content-card h1{
+        color: #343434;
+        font-size: 20px;
+        margin-bottom: 5px;
+        position:center;
+
+    }
+    
+    .card-body .content-card p{
+        color: #606470;
+        width: 100%;   
+    }
+    
+    footer{
+        width: 100%;
+        height: 50px;
+        background-color: #181818 ;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: #fff;
+    }
+    
+    footer p{
+        color: #fff;
+    }
+    footer, img{
+        padding: right;
+        margin: 10px 10px ;
+    }
 }
