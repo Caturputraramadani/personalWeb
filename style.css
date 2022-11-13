@@ -11,7 +11,7 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #181818;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("city\(personal\ work\)\,\ XuTeng\ Pan.png");
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("Studio\ Ghibli.gif");
     background-size: cover;
     background-repeat: no-repeat;
     height: 697px;
@@ -284,7 +284,7 @@ footer, img{
     body{
         font-family: 'Poppins', sans-serif;
         background-color: #181818;
-        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("city\(personal\ work\)\,\ XuTeng\ Pan.png");
+        background-image: url("Studio\ Ghibli.gif");
         background-size: cover;
         background-repeat: no-repeat;
         height: 100px;
