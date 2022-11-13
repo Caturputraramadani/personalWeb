@@ -11,7 +11,7 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #181818;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("Studio\ Ghibli.gif");
+    background-image:url("Studio\ Ghibli.gif");
     background-size: cover;
     background-repeat: no-repeat;
     height: 697px;
@@ -352,7 +352,7 @@ footer, img{
         float: left;
         margin: 0 auto;
         padding: 10px;
-        font-size: 42px; overflow: hidden; 
+        font-size: 37px; overflow: hidden; 
         white-space: nowrap; 
         animation: typing 3s steps(24) 2s infinite;
     }
