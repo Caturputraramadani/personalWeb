@@ -11,7 +11,7 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #181818;
-    background-image:url("Studio\ Ghibli.gif");
+    background-image:url("Unfamiliar\ Twins\ \(END\).gif");
     background-size: cover;
     background-repeat: no-repeat;
     height: 697px;
@@ -71,7 +71,7 @@ nav ul li a{
     padding: 50px;
     font-size: 50px; overflow: hidden; 
     white-space: nowrap; 
-    animation: typing 3s steps(24) 2s infinite;
+    animation: typing 9s steps(240) 3s infinite;
 
 }
 #typing span{
@@ -284,10 +284,11 @@ footer, img{
     body{
         font-family: 'Poppins', sans-serif;
         background-color: #181818;
-        background-image: url("Studio\ Ghibli.gif");
-        background-size: cover;
+        background-image: url("Unfamiliar\ Twins\ \(END\).gif");
+        background-size: contain;
         background-repeat: no-repeat;
         height: 100px;
+    
     }
 }
 
@@ -300,27 +301,31 @@ footer, img{
 @media (max-width: 600px){
     nav .nav-logo{
         line-height: 60px;
-        margin-left: 90px;
+        
     }
        
 }
 @media (max-width: 600px){
     nav .nav-logo a{
-        font-size: 20px;
+        font-size: 10px;
         text-decoration: none;
         color: #fff;
         text-shadow: 3px 2px 1px #515353;
         float: left;
+        margin: 0px 0px 0px 10px;
+        font-weight: bold;
     }
 }
 @media (max-width: 600px){
     nav ul{
         float: right;
-        margin-right: 100px;
+        margin-right: 170px;
+        
     }
 }
 @media (max-width: 600px){
     nav ul li{
+
         display: inline-block;
         margin: 0 20px;
         line-height: 60px;
@@ -329,19 +334,22 @@ footer, img{
 @media (max-width: 600px){
     nav ul li a{
         color: #fff;
-        text-shadow: 3px 2px 1px #515353;
-        text-decoration: none;
+        font-weight: bold;
+        text-shadow: 3px 2px 1px #515353;  
+        font-size: 10px; 
     }
 }
 @media (max-width: 600px){
     .container{
-        margin: 0 170px;
+        margin:  0 30px 0 0;
         position: relative;
     }
 } 
 @media (max-width: 600px){
     .landing-page{
-        height: 650px;
+        height: 150px;
+        margin: 0px 0px 0px 0px ;
+        
     }
 }
 @media (max-width: 600px){
@@ -349,12 +357,15 @@ footer, img{
         width: auto;
         color: #fff;
         text-shadow: 3px 2px 1px #515353;
-        float: left;
-        margin: 0 auto;
-        padding: 10px;
-        font-size: 37px; overflow: hidden; 
+        margin: 30px;
+        padding: 0px ;
+        font-size: 20px; 
+        overflow: hidden; 
         white-space: nowrap; 
-        animation: typing 3s steps(24) 2s infinite;
+        animation: typing 10s steps(240) 1s infinite;
+        justify-content: center;
+        align-items: center;
+        position: relative;
     }
 }
 @media (max-width: 600px){
@@ -363,43 +374,47 @@ footer, img{
         text-shadow: 3px 2px 1px #515353;
     }
 }
+
 @media (max-width: 600px){
     @keyframes typing{
         from{
-            width:0;
+            width:0px;
         }
         to{
-            width: 900px;
+            width: 600px;
         }
     }
+    
 }
+
 @media (max-width: 600px){
     .about{
         background-color: #181818;
         height: 1000px;
         width:auto;
-        display: inline-flex;
+        display:contents;
         position: center;
         padding: 50px;
-        margin: 0px;
+        margin: 0px 0px 0px 35px ;
+        
         
     }
 }
 @media (max-width: 600px){
     .about .container-about{
-        margin: 10px;
+       
         padding: 30px;
         border: 1px solid #eaeaea;
         border-radius: 5px;
         position:relative;
         display: flex;
-        justify-content: space-between;
         box-shadow: 0 0 10px #cecece;
         background-color: #181818;
-        position:center;
         justify-content: center;
         text-align: center;
         display:block;
+        margin: 20px 0px 10px 35px ;
+        height: 550px;
     }
 }
 @media (max-width: 600px){
@@ -408,17 +423,19 @@ footer, img{
         width: 23rem;
         color: #808181;
         text-shadow: 3px 2px 1px rgb(0, 0, 0);
-        position: center;
+        display: inline;
     }
 }
 @media (max-width: 600px){
     .about .container-about .text-about h1{
-        font-size: 50px;
+        font-size: 30px;
+       
     }
 }
 @media (max-width: 600px){
     .about .container-about .text-about p{
-        font-size: 30px;
+        font-size: 15px;
+        
     }
 }
 @media (max-width: 600px){
@@ -430,7 +447,7 @@ footer, img{
 }
 @media (max-width: 600px){
     .about .container-about .image-about img{
-        width: 100%;
+        width: 60%;
         display: center;
         justify-content: flex-end;
         border-radius: 10px;
@@ -439,7 +456,7 @@ footer, img{
 }
 @media (max-width: 600px){
     .destination{
-        height: 1400px;
+        height: 1000px;
         /* margin-top: 100px; */
     }
 }
@@ -451,7 +468,8 @@ footer, img{
 @media (max-width: 600px){
     .destination .content-destination h1{
         text-align: right;
-        font-size: 50px;
+        font-size: 30px;
+        margin: 25px 80px 25px 25px ;
         color: #343434;
     }  
 }
@@ -473,11 +491,13 @@ footer, img{
 @media (max-width: 600px){
     .destination .card .card-body{
         background-color: rgb(255, 255, 255);
-        width: 550px;
+        width: 300px;
         box-shadow: 0 0 10px #cecece;
         margin: 25px 25px 0 10px;
         border-radius: 5px; 
         padding: 25px 25px; 
+        margin: 25px 50px 50px 35px ;
+
     }
 }
 @media (max-width: 600px){
@@ -508,7 +528,7 @@ footer, img{
 }
 @media (max-width: 600px){
     footer{
-        width: 225%;
+        width: 90%;
         height: 50px;
         background-color: #181818 ;
         justify-content: center;
@@ -520,7 +540,7 @@ footer, img{
 @media (max-width: 600px){
     footer p{
         color: #fff;
-        font-size: 30px;
+        font-size: 20px;
         font-display: right;
     }
 }
