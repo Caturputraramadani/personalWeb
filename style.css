@@ -318,8 +318,8 @@ footer, img{
 }
 @media (max-width: 600px){
     nav ul{
-        float: right;
-        margin-right: 170px;
+        float: left;
+        margin-right: 17px;
         
     }
 }
@@ -328,7 +328,7 @@ footer, img{
 
         display: inline-block;
         margin: 0 20px;
-        line-height: 60px;
+        line-height: 30px;
     }
 }
 @media (max-width: 600px){
